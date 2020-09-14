@@ -1,0 +1,156 @@
+<link href="css/color/default.css" rel="stylesheet" id="option-color">
+<script src="js/color-switcher.js"></script>
+
+
+
+
+
+
+
+
+
+
+------HTML------------
+
+
+
+					<div id="color-switcher" style="left: 0px;">
+            <div>
+                <h3>Select your color</h3>
+                <ul class="pattern">
+                    <li>
+                        <a class="color1 active" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="color2" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="color3" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="color4" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="color5" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="color6" href="#"></a>
+                    </li>                   
+                </ul>
+            </div>
+            <div class="bottom">
+                <a href="#" class="settings rounded-right"><i class="mdi mdi-settings mdi-spin"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+-----------css-----------------
+
+
+
+
+#color-switcher div h3 {
+    font-size: 16px;
+    margin: 8px 3px 12px
+}
+
+#color-switcher {
+    background: none repeat scroll 0 0 #ffff;
+    box-shadow:0px 0px 14px 0 rgba(0, 0, 0, .08);
+    left: -189px;
+    position: fixed;
+    top: 17%;
+    width: 189px;
+    z-index: 9999;
+    padding: 10px 5px
+}
+
+#color-switcher div {
+    padding: 5px 10px
+}
+
+#color-switcher .bottom {
+    background: none repeat scroll 0 0 #fff;
+    color: #252525;
+    padding: 0
+}
+
+#color-switcher .bottom a.settings {
+    background: none repeat scroll 0 0 #2b2424;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .08);
+    display: block;
+    height: 41px;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+    padding: 3px
+}
+
+#color-switcher .bottom a {
+    text-decoration: none
+}
+
+#color-switcher .bottom a.settings i {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 24px;
+    position: absolute
+}
+
+ul.pattern {
+    list-style: none outside none;
+    margin: 0 0 0;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0
+}
+
+ul.pattern li {
+    float: left;
+    margin: 2px
+}
+
+ul.pattern li a {
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 16px 16px 0;
+    margin: 5px
+}
+
+ul.pattern .color1 {
+    background: #e65f78;
+}
+
+ul.pattern .color2 {
+    background: #37b8df;
+}
+
+ul.pattern .color3 {
+    background: #31b164;
+}
+
+ul.pattern .color4 {
+    background: #5d69f6;
+}
+
+ul.pattern .color5 {
+    background: #87ceeb;
+}
+
+
+ul.pattern .color6 {
+    background:#f2b31a;
+}
+
+
+
+
+
